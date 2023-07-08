@@ -1,0 +1,776 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Cookie&family=Dancing+Script:wght@400;600&family=Great+Vibes&family=Gwendolyn:wght@400;700&family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Cookie&family=Dancing+Script:wght@400;600&family=Engagement&family=Great+Vibes&family=Gwendolyn:wght@400;700&family=Lato:wght@400;700&display=swap');
+
+/* html completo */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+/* body*/
+
+body {
+    background-color: #fbfbfb;
+    min-width: 100%;
+}
+
+/* header*/
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    box-shadow: 10px 4px 2px 2px rgba(208, 204, 207, 0.3);
+    background-color: #fbfbfb;
+    position: fixed;
+    top: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+.img-logo {
+    display: inline-flex;
+}
+
+.div-img-logo {
+    display: inline-flex;
+    align-items: center;
+    height: 60px;
+}
+
+.button {
+    display: none;
+    background-color: #fbfbfb;
+    border: none;
+}
+
+.svg1 {
+    width: 3em;
+    height: 3em;
+    fill: black;
+}
+
+.a1 .li-habilidades{
+    display: none;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+.a1 {
+    text-decoration: none;
+    color: black;
+    font-family: 'Gwendolyn', cursive;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.a1:hover {
+    background-color: #e62788;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.li {
+    margin: 0 .5em;
+}
+
+/* main*/
+
+#inicio {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: 40px;
+    padding-top: 80px;
+    margin-bottom: 60px;
+}
+
+.inicio-general {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.imagen {
+    width: 30%;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+}
+
+#imagen {
+    border-radius: 100%;
+    height: 350px;
+    width: 350px;
+    margin-right: 5%;
+    padding-left: 0%;
+    margin-top: 30px;
+}
+
+.inicio-info {
+    display: block;
+    margin: 32px;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 46px;
+    font-family: 'Gwendolyn', cursive;
+    padding-bottom: 25px;
+    color: #e62788;
+}
+
+p {
+    display: block;
+    line-height: 1.5em;
+    padding-bottom: 36px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.boton {
+    background-color: #c21a6c;
+    border-radius: 15px;
+    padding: 15px 30px;
+    margin-top: 10px;
+    color: #ffb3ff;
+    text-decoration: none;
+    font-family: 'Gwendolyn', cursive;
+    font-size: 25px;
+}
+
+.boton:hover {
+    color: #fbfbfb;
+    animation: alternate;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#hablemos {
+    text-align: center;
+    margin: 0;
+    margin-top: 50px;
+}
+
+.div-hablemos {
+    background-color: #e62788;
+    border-radius: 30px;
+    height: 100%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 120px;
+    padding-top: 10px;
+}
+
+.h2 {
+    font-size: 38px;
+    padding: 30px;
+    text-align: center;
+    font-family: 'Gwendolyn', cursive;
+}
+
+.a-hablemos {
+    text-align: center;
+    width: auto;
+    margin: 20px;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+#habilidades{
+    display: flex;
+    text-align: center;
+    margin: 0;
+    margin-top: 40px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.div-button2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    height: 100%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 60px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 35px;
+    background-color: #e62788;
+    border-radius: 30px;
+    margin-bottom: 60px;
+}
+
+.button2 {
+    background-color: #e62788;
+    border: none;
+    display: flex;
+    border-radius: 25px;
+    padding: 10px;
+    font-family: 'Gwendolyn', cursive;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.button2:hover {
+    color: #e8c7e7;
+}
+
+.div-habilidades {
+    background-color: #e62788;
+    border-radius: 30px;
+    height: 300px;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 35px;
+    display: none;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+h3{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+#habilidad-list{
+    padding-left: 20px;
+    display: flex;
+    width: 100%;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    height: 140px;
+    font-size: 20px;
+    font-family: 'Gwendolyn';
+    text-align: center;
+}
+
+img{
+    width: 90px;
+    background-color: #fbfbfb;
+    border-radius: 10px;
+}
+
+.iconos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.ol-icono {
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.li-icono {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.a.icono {
+    margin-right: 0;
+    margin-top: 0;
+}
+
+.social-icons {
+    font-size: 80px;
+    margin: 20px 10px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    bottom: 0;
+    color: #c21a6c;
+}
+
+/*footer*/
+
+footer {
+    width: 100%;
+    height: 90px;
+    background-color: #c21a6c;
+}
+
+h4 {
+    padding-top: 30px;
+    text-align: center;
+    line-height: 1.2em;
+    color: #ffb3ff;
+    font-family: 'Gwendolyn', cursive;
+    font-size: 30px;
+}
+
+/*media tablet*/
+
+@media screen and (max-width: 1097px){
+
+    body {
+        background-color: #f9f4ef;
+    }
+
+    .header {
+        background-color: #f2e9df;
+    }
+
+    .a1 {
+        text-decoration: none;
+        color: #01c4e7;
+        font-family: 'Great+Vibes';
+        font-size: 25px;
+    }
+
+    .a1:hover {
+        background-color: white;
+        border: solid;
+        border-color: #01c4e7;
+        border-radius: 8px;
+        padding: 5px;
+    }
+
+    .inicio-general {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    #imagen {
+        border-radius: 100%;
+        height: 350px;
+        width: 350px;
+        margin-right: 5%;
+        padding-left: 0%;
+        margin-top: 20px;
+    }
+
+    .inicio-info {
+        display: block;
+        margin: 32px;
+        margin-top: 30px;
+    }
+
+    h1 {
+        font-size: 52px;
+        padding-top: 50px;
+        font-family: 'Great+Vibes';
+        padding-bottom: 25px;
+        color: #01c4e7;
+    }
+
+    .a-inicio{
+        padding-bottom: 60px;
+    }
+
+    .boton {
+        background-color: #01c4e7;
+        border-radius: 15px;
+        padding: 15px 30px;
+        margin-top: 40px;
+        font-family: 'Great+Vibes';
+        color:black;
+    }
+
+    .div-hablemos {
+        background-color: #01c4e7;
+        border-radius: 30px;
+        height: 100%;
+        margin-left: 8%;
+        margin-right: 8%;
+        margin-top: 100px;
+        padding-top: 10px;
+    }
+
+    .h2 {
+        font-size: 36px;
+        padding: 30px;
+        text-align: center;
+        font-family: 'Great+Vibes';
+    }
+
+    .a-hablemos {
+        text-align: justify;
+        margin: 20px;
+        font-size: 16px;
+        line-height: 1.5em;
+    }
+
+    #habilidades{
+        display: flex;
+        text-align: center;
+        margin: 0;
+        margin-top: 40px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    .div-button2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        height: 100%;
+        margin-left: 8%;
+        margin-right: 8%;
+        margin-top: 30px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        padding-right: 35px;
+        background-color:#01c4e7 ;
+        border-radius: 30px;
+        margin-bottom: 60px;
+    }
+    
+    .button2 {
+        background-color: #01c4e7;
+        border: none;
+        display: flex;
+        border-radius: 25px;
+        padding: 10px;
+        font-family: 'Gread+vibes';
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    
+    .button2:hover {
+        color: white;
+    }
+    
+    .div-habilidades {
+        background-color: #01c4e7;
+        border-radius: 30px;
+        height: 300px;
+        margin-left: 8%;
+        margin-right: 8%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 35px;
+        display: none;
+        margin-bottom: 40px;
+        align-items: center;
+    }
+    
+    h3{
+        font-family: 'Gread+vibes';
+        font-size: 16px;
+        padding-bottom: 20px;
+    }
+        
+    img{
+        width: 90px;
+        background-color: #fbfbfb;
+        border-radius: 10px;
+    }
+
+    .social-icons {
+        font-size: 60px;
+        margin: 20px 10px;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 10px;
+        color: #01c4e7;
+    }
+
+    footer {
+        width: 100%;
+        background-color: #f2e9df;
+        height: 90px;
+        position: relative;
+        bottom: 0;
+    }
+
+    h4 {
+        padding-top: 30px;
+        text-align: center;
+        line-height: 1.2em;
+        color: #01c4e7;
+        font-family: 'Gread+vibes';
+        font-size: 30px;
+    }
+    
+}
+
+
+/*media intermedia para configurar los iconos de habilidad-list*/
+
+@media screen and (max-width: 790px){
+
+    h3{
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    img{
+        width: 60px;
+        background-color: #fbfbfb;
+        border-radius: 10px;
+        margin-bottom: 24px;
+    }
+    
+
+}
+
+/*media mobile*/
+
+@media screen and (max-width: 480px) {
+
+    body , 
+    .header {
+        background-color: #fbfbfb;
+    }
+
+    .nav {
+        width: 100%;
+        height: 0;
+        pointer-events: none;
+        overflow: hidden;
+        transition: all .5s ease;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav.activo {
+        height: 5%;
+        pointer-events: auto;
+    }
+
+    .ul {
+        flex-direction: column;
+    }
+
+    .li {
+        margin: 6px 0;
+    }
+
+    .a1 {
+        text-decoration: none;
+        color:black;
+        font-family: 'Great+Vibes';
+        font-size: 25px;
+    }
+
+    .a1:hover {
+        background-color: #e62788;
+        border-radius: 8px;
+        padding: 5px;
+        border: none;
+    }
+
+    #inicio,
+    #hablemos {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        align-content: center;
+        min-height: 100vh;
+    }
+    
+    .inicio-general, 
+    .div-hablemos {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        text-align: center;
+        margin-top: 120px;
+        padding-top: 60px;
+        margin-bottom: 40px;
+    }
+
+    .inicio-info {
+        display: block;
+        margin: 10px;
+        margin-top: 30px;
+    }
+
+    .a-inicio {
+        padding-bottom: 100px;
+    }
+
+    .div-hablemos {
+        margin-top: 140px;
+        margin-bottom: 20px;
+        background-color: #e62788;
+    }
+
+    h1 {
+        font-size: 36px;
+        padding-top: 50px;
+        font-family: 'Gread+vibes';
+        padding-bottom: 25px;
+        color: #e62788;
+    }
+
+    .button {
+        display: block;
+        cursor: pointer;
+    }
+
+    .boton {
+        background-color: #c21a6c;
+        border-radius: 15px;
+        padding: 15px 30px;
+        margin-top: 40px;
+        font-family: 'Great+Vibes';
+        color:black;
+    }
+    
+    #habilidades{
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        align-content: center;
+        margin-top: 280px;
+        min-height: 100vh;
+    }
+    
+    .div-button2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        padding-bottom: 20px;
+        background-color: #e62788;
+        border-radius: 20px;
+        margin-bottom: 60px;
+    }
+
+    .button2 {
+        background-color: #e62788;
+        border: none;
+        display: flex;
+        border-radius: 25px;
+        padding: 10px;
+        font-family: 'Gread+vibes';
+        font-size: 30px;
+        font-weight: bolder;
+        text-align: center;
+        padding-left: 15px;
+    }
+    
+    .button2:hover {
+        color: #e8c7e7;
+    }
+    
+    .div-habilidades {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        background-color: #e62788;
+        border-radius: 30px;
+        padding-top: 10px;
+        align-items: center;
+        width: 100%;
+        height: 800px;
+    }
+    
+    
+    h3{
+        font-size: 25px;
+    }
+    
+    #habilidad-list{
+        padding-left: 20px;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        height: 140px;
+        font-size: 20px;
+        font-family: 'Gwendolyn';
+        text-align: center;
+        flex-wrap: nowrap;
+        align-content: center;
+        align-items: center;
+        padding-top: 18px;
+    }
+    
+    img{
+        width: 80px;
+        background-color: #fbfbfb;
+        border-radius: 10px;
+        margin-bottom: 24px;
+    }
+    
+    .social-icons {
+        font-size: 50px;
+        margin: 20px 10px;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 10px;
+        color: #c21a6c;
+    }
+    
+    
+    footer {
+        width: 100%;
+        height: 90px;
+        background-color: #c21a6c;
+        bottom: 0;
+    }
+    
+    h4 {
+        padding-top: 30px;
+        text-align: center;
+        color: #ffb3ff;
+        font-family: 'Gread+vibes';
+        font-size: 30px;
+    }
+}
