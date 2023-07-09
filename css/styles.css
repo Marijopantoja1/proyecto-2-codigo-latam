@@ -728,7 +728,7 @@ h4 {
     
     #habilidad-list{
         padding-left: 20px;
-        display: flex;
+        display: none;
         width: 100%;
         flex-direction: column;
         justify-content: center;
